@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	background: linear-gradient(blue, white);
+}
+
+header{
+	border-bottom: 3px solid black;
+	border-radius: 30px;
+}
+header:hover{
+	background: red;
+}
+
+header nav{
+	padding:5px
+}
+header nav ul{
+	display:flex;
+     justify-content: space-around;	
+}
+header nav ul li{
+	
+	padding: 5px;
+	list-style-type: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+}
