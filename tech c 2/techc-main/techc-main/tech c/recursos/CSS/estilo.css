@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+	background: linear-gradient(white, blue);
+}
+
+header{
+	border-bottom: 3px solid black;
+	border-radius: 30px;
+}
+header:hover{
+	background: red;
+}
+
+header nav{
+	padding:5px
+}
+header nav ul{
+	display:flex;
+     justify-content: space-around;	
+}
+header nav ul li{
+	
+	padding: 5px;
+	list-style-type: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+}
+section {
+	margin-top:5px;
+	
+	
+}
+section #direita{
+float:right;
+width: 30%;
+}
+section #esquerda {
+	
+float: left;
+width: 30%;
+}
+section #direita img{
+width:	150%;
+
+}
+section #esquerda p{
+	font-size:50px;
+	color: white;
+	position:relative;
+	left:50%;
+	top:50%;
+}
+section #produtos {
+	display:flex;
+	flex-direction: collumn; 
+}
