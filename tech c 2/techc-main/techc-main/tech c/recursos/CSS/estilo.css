@@ -36,13 +36,14 @@ section {
 	
 }
 section #direita{
-float:right;
-width: 30%;
+/*float:right;*/
+width: 10%;
 }
 section #esquerda {
 	
-float: left;
-width: 30%;
+/*float: left;*/
+width: 10%;
+
 }
 section #direita img{
 width:	150%;
@@ -51,11 +52,15 @@ width:	150%;
 section #esquerda p{
 	font-size:50px;
 	color: white;
-	position:relative;
-	left:50%;
-	top:50%;
 }
-section #produtos {
+ #produtos {
 	display:flex;
-	flex-direction: collumn; 
+	margin:10px;
+   flex-wrap: wrap;
+justify-content: center;   
+}
+#produtos img {
+	margin:70px;
+	
+	
 }
