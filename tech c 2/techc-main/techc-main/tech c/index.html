@@ -3,7 +3,7 @@
 <html lang= "pt-br">
 <head>
   <meta charset= "UTF-8">
-  <title>delux tech</title>
+  <title>tech C</title>
   <link rel="stylesheet" href="recursos/CSS/estilo.css">
   
   </head>
@@ -11,7 +11,7 @@
   <header>
    <nav>
       <ul>
-	  <li><a href= "">login</a><li/>
+	  <li><a href="#" onclick="forgotpasswordModal()">login</a><li/>
 	     <li><a href= "">conta</a><li/>
          <li><a href= "">compra</a><li/>
 		<li><a href= "">novos produtos</a><li/>
@@ -57,27 +57,26 @@
 			   <img src="recursos/imagens/arduino.jpg">
 			   <p>arduino por 40,00 R$</p>
 			   </div>
-			   
-			   
-			   
-			   <div id="fade" class="hide">
-			      <div id="modal_card" class="hide">
-				     <a href="#" onclick="forgotPasswordModal()">sair</a>
-					 <h2>esqueceu a senha?</h2>
-					 <label for="new_password">altere sua senha</label>
-					<input type="text" name="new_password()"id="new_password" placeholder="digite sua senha">
-					<input type="submit" value="entrar" onclick="newpassword()">
+   
+				  
 					</div>
 			   </div>
-			   
-			   <div class= "form-box login-box active">
-			     <form class="form-sigin">
-				    <input type="text" name="username"
-					Ema
-					
-			   
-			   
-	   
 	</section>
+	
+	 <div id="fade" class="hide">
+         <div id="page" class="hide">
+       
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
+        
+         </div>
+		 </div>
+		<script src="recursos/js/app.js"></script>
   </body>
   </html>
