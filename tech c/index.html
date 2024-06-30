@@ -1,30 +1,92 @@
-index.html
 <!DOCTYPE html>
-<html lang= "pt-br">
+<html lang="pt-br">
+
 <head>
-  <meta charset= "UTF-8">
-  <title>delux tech</title>
-  <link rel="stylesheet" href="recursos/CSS/estilo.css">
-  </head>
-  </body>
-  <header>
-   <nav>
-      <ul>
-	     <li>cadastro</li>
-         <li>compras</li>
-		 <li>configurações</li>
-		 <li>contato</li>
-         </ul>
-       </nav>
-    </header>
-	<section>
-	  <div>
-	      <img src="recursos/imagens/deserto.png">
-	   </div>
-	    <div>
-		  <p>Novo visor</p>
-		  <p>$65,00</p>
-		 </div>
-	</section>
-  </body>
-  </html>
+	<meta charset="UTF-8">
+	<title>tech C</title>
+	<link rel="stylesheet" href="recursos/css/estilo.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</body>
+<header>
+	<nav>
+		<ul>
+			<li>
+				<input type="checkbox" name="trocando_tema" id="trocando_tema">
+				<label for="troando_tema">
+				<img class="tema" id="sol" scr="recursos/imagens/sol.png" alt>
+				<img class="tema" id="sol" scr="recursos/imagens/lua.png" alt>
+			</li>
+			<li><a href="">conta</a>
+			</li>
+			<li><a href="">compra</a>
+			</li>
+			<li><a href="">novos produtos</a>
+			</li>
+			<li><a href="">ajuda</a>
+			</li>
+			<li><a href="#" onclick="forgotpasswordModal()">login</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<section id="slide">
+	<div id="direita">
+		<img src="recursos/imagens/impressora.jpg">
+	</div>
+	<div id="esquerda">
+		<p>promoção do dia impressora 3D</p>
+		<p>600,00 R$</p>
+	</div>
+</section>
+<section id="produtos">
+	<div class="produto_descricao">
+		<img src="recursos/imagens/oculosVR.jpg">
+		<p>óculos VR por 65,00 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/monitor.jpg">
+		<p>monitor por 70,00 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/controlexbox.jpg">
+		<p>controle de Xbox por 25 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/kindle.jpg">
+		<p>kindle por 80 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/teclado.jpg">
+		<p>teclado por 21 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/mouse.jpg">
+		<p>mouse por 15,00 R$</p>
+	</div>
+	<div class="produto_descricao">
+		<img src="recursos/imagens/arduino.jpg">
+		<p>arduino por 40,00 R$</p>
+	</div>
+</section>
+
+<div id="fade" class="hide">
+	<div id="page" class="hide">
+
+		<h1>Login</h1>
+		<p>Digite os seus dados de acesso no campo abaixo.</p>
+		<label for="email">E-mail</label>
+		<input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+		<label for="password">Senha</label>
+		<input type="password" placeholder="Digite sua senha" />
+		<a href="/">Esqueci minha senha</a>
+		<input type="submit" value="Acessar" class="btn" />
+
+	</div>
+</div>
+<script src="recursos/js/app.js"></script>
+</body>
+
+</html>
